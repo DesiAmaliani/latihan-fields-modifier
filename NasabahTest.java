@@ -3,6 +3,7 @@ public class NasabahTest{
 		Nasabah n1 = new Nasabah();
 		n1.jumlahnasabah = 2;
 		System.out.println("jumlah nasabah = "+n1.jumlahnasabah);
+		System.out.println("nama bank = "+n1.bank);
 		Nasabah.nourutan++;
 		System.out.println(n1.nourutan);
 		n1.nama = "yana";
